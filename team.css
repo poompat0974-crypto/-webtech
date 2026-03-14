@@ -1,0 +1,73 @@
+/* พื้นที่ส่วนผู้จัดทำ */
+.team-section {
+    padding: 60px 10%;
+    text-align: center;
+}
+
+.team-title {
+    font-size: 36px;
+    margin-bottom: 40px;
+    font-weight: 800;
+}
+
+/* กล่องใหญ่คุมการ์ดทั้งหมด (ใช้ Flexbox จัดให้เรียงแนวนอน) */
+.team-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;            /* ระยะห่างระหว่างการ์ด */
+    flex-wrap: wrap;      /* ถ้าจอเล็กให้ตกลงมาบรรทัดใหม่ได้ */
+}
+
+/* หน้าตาของการ์ดแต่ละใบ */
+.team-card {
+    background-color: #f2f0e9; /* สีครีมอ่อนๆ ให้เหมือนกระดาษ */
+    border: 3px solid #222;
+    border-radius: 15px;
+    padding: 30px 20px;
+    width: 250px;         /* กำหนดความกว้างการ์ด */
+    box-shadow: 6px 6px 0px #77ce91; /* เงาทึบสีเขียวให้ดู Pop-up */
+    transition: transform 0.3s ease;
+}
+
+/* ลูกเล่นตอนเอาเมาส์ชี้การ์ดจะเด้งขึ้นนิดนึง */
+.team-card:hover {
+    transform: translateY(-10px);
+}
+
+/* ตกแต่งรูปโปรไฟล์ */
+.card-icon img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;   /* ทำรูปให้เป็นวงกลม */
+    border: 2px solid #222;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.team-card h3 {
+    margin: 10px 0 5px 0;
+    font-size: 22px;
+}
+
+.team-card p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 25px;
+}
+
+/* ปุ่มกดไป IG */
+.ig-btn {
+    display: inline-block;
+    background-color: #cce6d4;
+    color: #222;
+    text-decoration: none;
+    padding: 8px 20px;
+    border: 2px solid #222;
+    border-radius: 50px;  /* ปุ่มทรงแคปซูล */
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.ig-btn:hover {
+    background-color: #a0f8bc; /* สีสว่างขึ้นตอนชี้เมาส์ */
+}
