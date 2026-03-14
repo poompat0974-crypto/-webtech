@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Bricolage Grotesque', sans-serif;
-    background-color: #f8f8f8; /* สีพื้นหลังครีมๆ ตามรูป */
+    background-color: #f8f8f8; 
     color: #222;
 }
 
@@ -44,13 +44,13 @@ nav ul li a {
     font-weight: 600;
 }
 
-/* ส่วนเนื้อหาหลัก */
+
 .hero {
-    display: block;      /* เปลี่ยนจาก flex เป็น block เพื่อให้ element เรียงจากซ้าย */
+    display: block;      
     text-align: left;    /* บังคับให้เนื้อหาชิดซ้าย */
     padding: 20px;       /* เพิ่มช่องว่างจากขอบจอเล็กน้อย */
 }
-/* คุมขนาดภาพใน Carousel ให้เท่ากันและไม่เบี้ยว */
+
 .carousel-item img {
     height: 400px;       /* ปรับความสูงตามที่คุณต้องการ */
     object-fit: cover;   /* สำคัญมาก: เพื่อให้ภาพถูกตัดพอดีกรอบ ไม่โดนบีบแบน */

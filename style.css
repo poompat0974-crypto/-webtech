@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Bricolage Grotesque', sans-serif;
-    background-color: #f8f8f8; /* สีพื้นหลังครีมๆ ตามรูป */
+    background-color: #f8f8f8; 
     color: #222;
 }
 
@@ -43,8 +43,6 @@ nav ul li a {
     font-size: 14px;
     font-weight: 600;
 }
-
-/* ส่วนเนื้อหาหลัก */
 .hero {
     display: flex;
     align-items: center;
@@ -68,7 +66,6 @@ nav ul li a {
     display: inline-block;
 }
 
-/* ตกแต่งรูปภาพ */
 .hero-image img {
     width: 450px;
 }
@@ -95,13 +92,12 @@ max-width: 1020px;
     line-height: 1.8;
 }
 
-/* สร้างพื้นหลังทรงแคปซูล */
 .pill-bg {
-    background-color: #cbd8cf; /* สีเขียวอ่อนแบบในรูปตัวอย่างของคุณ */
+    background-color: #cbd8cf;
     color: #222;
     padding: 5px 20px;
     border-radius: 50px;
-    border: 1.5px solid #222;  /* ใส่เส้นขอบบางๆ ให้ดูสไตล์ Retro */
+    border: 1.5px solid #222;  
     display: inline-block;
     margin-right: 10px;
     font-weight: 800;
