@@ -115,12 +115,12 @@ max-width: 1020px;
 
 }
 footer{
-    background-color: #77ce91;   /* สีเขียวของคุณ */
-        display: flex;               /* สั่งให้กล่องข้างในเรียงแนวนอน */
-        justify-content: space-between; /* กระจายกล่องทั้ง 3 ใบให้ห่างเท่าๆ กัน */
-        padding: 60px 10%;           /* เว้นพื้นที่ว่างด้านใน (บนล่าง 60px, ซ้ายขวา 10%) */
-        color: #222;                 /* สีตัวอักษรเป็นสีดำอมเทา */
-        margin-top: 80px;            /* ดัน Footer ให้ห่างจากเนื้อหาด้านบน */
+    background-color: #77ce91;  
+        display: flex;              
+        justify-content: space-between; 
+        padding: 60px 10%;          
+        color: #222;                
+        margin-top: 80px;            
         border-top: 3px solid #222;
 }
 .footer-col h2 {
@@ -141,7 +141,6 @@ footer{
     text-decoration: none; 
 }
 
-/* พอเอาเมาส์ชี้ ค่อยให้ขีดเส้นใต้ขึ้นมา (Hover effect) */
 .footer-col a:hover {
     text-decoration: underline;
     font-weight: bold;
